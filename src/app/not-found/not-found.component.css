@@ -1,0 +1,11 @@
+.white{
+    font-family: "The New Roman";
+}
+
+.buttongroupblock {
+    display: flex; /* Make the buttons appear below each other */
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }

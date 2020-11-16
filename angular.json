@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "Telemedicine-appointment"
+    }
+  },
+  "defaultProject": "Telemedicine-appointment",
+  "cli": {
+    "analytics": false
+  }
 }

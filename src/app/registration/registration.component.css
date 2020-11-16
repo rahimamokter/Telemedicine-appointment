@@ -1,0 +1,37 @@
+.form-group{
+    margin-left: 40px;
+    font-size: 20px;
+    font-family: "The New Roman";
+}
+
+.form-control{
+    width: 600px;
+    height: 40px; 
+    padding-top: 5px;
+    padding-left: 7px;
+    text-align: left;
+    background-color: rgb(230, 223, 223);
+    font-family: "The New Roman";
+}
+
+.btn-primary{
+    margin-left: 40px;
+    width: 600px;
+    height: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #5DADE2;   
+    font-family: "The New Roman";
+}
+
+h4{
+    font-family: "The New Roman";
+    margin-left: 40px;
+    color: deeppink;
+}
+
+p{
+    font-family: "The New Roman";
+    margin-left: 40px;
+    font-size: 22px;
+}

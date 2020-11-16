@@ -1,0 +1,25 @@
+.example-card {
+    max-width: 200px!important;
+    box-sizing: border-box;
+    background: rgb(135, 210, 240);
+    margin-left:40px;
+  }
+
+  h3{
+    font-family: "The New Roman";
+    margin-left:40px;
+  
+  }
+
+  h4{
+    font-family: "The New Roman";
+  }
+
+  h2{
+    font-family: "The New Roman";
+  }
+
+  p{
+    font-family: "The New Roman";
+  
+  }

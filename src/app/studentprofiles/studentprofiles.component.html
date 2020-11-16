@@ -1,0 +1,52 @@
+<h3>Applicant List <br/></h3>
+<h3></h3>
+<div>
+  <mat-list *ngFor="let student of students; let i = index">
+      <mat-card class="example-card">
+    <mat-list-item>
+      
+            <h4 matLine>Student record: {{ student._id }}</h4>
+            <h2 matLine>Name: {{ student.firstName }}, {{ student.lastName }}</h2>
+            <p matLine>
+              Email: {{ student.email }} <br />
+              Contact No: {{ student.phoneNumber }} <br />
+              Specialization: {{ student.specialization }} <br />
+              Education level: {{ student.education }} <br />
+              Interested Field: {{ student.interest }} <br />
+              Self Introduction: {{ student.selfIntro }} <br />
+              <mat-card-actions align="end">
+              
+                  <button mat-raised-button color="warn" (click)="onDelete(student._id)">
+                      DELETE
+                    </button>
+                    <button
+                      
+                      mat-raised-button
+                      color="primary"
+                      (click)="
+                        onUpdate(
+                          student._id,
+                          student.firstName,
+                          student.lastName,
+                          student.email,
+                          student.phoneNumber,
+                          student.specialization,
+                          student.education,
+                          student.interest,
+                          student.selfIntro
+                        )
+                      "
+                    >
+                      UPDATE
+                    </button>
+                </mat-card-actions>
+              
+            </p>
+            <p></p>
+            <div></div>
+  
+      
+    </mat-list-item>
+  </mat-card>
+  </mat-list>
+</div>

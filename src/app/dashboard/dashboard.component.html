@@ -1,0 +1,41 @@
+<div class= "dashboard-body">
+  <p><b>Telemedicine</b> is here to provide you a complete healthcare services virtually. Healthcare providers are rapidly deploying new virtual workflows due to circumstances resulting
+     from COVID-19 (coronavirus disease) to reduce the risk of transmission to healthy patients. 
+     Here you’ll find resources to help you manage the change - from getting your clinicians, care team, 
+     patients and families comfortable with virtual consults, to guidance for IT on rapid deployment considerations.
+    We’ll update this page regularly – so check back soon to see what’s new.
+  </p><br/>
+
+<mat-card >
+    <mat-grid-list cols="3">
+     <mat-grid-tile [style.border-right]="'1px dashed #05bafe'">
+        <mat-card class="example-card_dashboard" (click)= "gotoRegistration()">
+        
+            <img mat-card-image src="./assets/student_reg_1.png" alt="Photo of a Shiba Inu">
+            <mat-card-content>
+              <p><b>Resources</b>
+              </p>
+            </mat-card-content>
+          </mat-card>
+          
+     </mat-grid-tile>
+     <mat-grid-tile [style.border-right]="'1px dashed #05bafe'">
+        <mat-card class="example-card_dashboard" (click)="gotListOfStudent()">
+        
+            <img mat-card-image src="./assets/student_list_512.png" alt="Photo of a Shiba Inu">
+            <mat-card-content>
+              <p><b>Applicant List</b></p>
+            </mat-card-content>
+          </mat-card>
+     </mat-grid-tile>
+     <mat-grid-tile>
+        <mat-card class="example-card_dashboard" (click) = "gotoAboutUs()">
+        
+            <img mat-card-image src="./assets/info_.png" alt="Photo of a Shiba Inu">
+            <mat-card-content>
+              <p><b>About Us</b></p>
+            </mat-card-content>
+          </mat-card>
+     </mat-grid-tile>
+    </mat-grid-list>
+  </mat-card>

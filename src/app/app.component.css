@@ -1,0 +1,14 @@
+.image{
+    background-repeat:no-repeat;
+}
+
+.nav-item{
+    text-align: center;
+    margin-right: 15px;
+}
+
+.nav-item a{
+    font-family: "The New Roman";
+    font-size: 22px;
+}
+
